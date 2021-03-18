@@ -1,0 +1,9 @@
+.counter {
+  margin: 20px auto 30px auto;
+  display: flex;
+  flex-direction: row;
+  max-width: 60px;
+}
+.counter__item {
+  margin: 0;
+}

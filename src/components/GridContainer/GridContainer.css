@@ -1,0 +1,17 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: 1fr;
+ 
+}
+
+.grid-container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 500px;
+  border-radius: 6px;
+}
+
+.grid-container__margin {
+  margin: 40px auto 20px auto;
+}

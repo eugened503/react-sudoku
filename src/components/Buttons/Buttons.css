@@ -1,0 +1,35 @@
+.button-container {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 500px;
+}
+.button-container__item {
+  font-size: 14px;
+  font-weight: 550;
+  width: 23%;
+  color: black;
+  text-decoration: none;
+  padding: 0.4em 1em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #baddf8 #000 #8099ac;
+  border-radius: 6px;
+  background: linear-gradient(#baddf8, #b0d1eb) #9ebcd3;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.button-container__item:hover {
+  background: linear-gradient(#baddf8, #6baada) #9ebcd3;
+}
+.button-container__item:active {
+  background: linear-gradient(#baddf8, #b0d1eb) #9ebcd3;
+}
+
+.button-container__item:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px lightskyblue;
+}

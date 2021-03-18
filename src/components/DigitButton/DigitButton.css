@@ -1,0 +1,37 @@
+.digit-button {
+  font-size: larger;
+  font-weight: 500;
+  color: black;
+  background: linear-gradient(#baddf8, #b0d1eb) #9ebcd3;
+  border: 1px solid black;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.digit-button:nth-child(1),
+.digit-button:nth-child(2),
+.digit-button:nth-child(3),
+.digit-button:nth-child(4),
+.digit-button:nth-child(5),
+.digit-button:nth-child(6),
+.digit-button:nth-child(7),
+.digit-button:nth-child(8),
+.digit-button:nth-child(9) {
+  border-top: black solid 3px;
+  border-bottom: black solid 3px;
+}
+
+.digit-button:nth-child(1) {
+  border-left: black solid 3px;
+}
+
+.digit-button:nth-child(9) {
+  border-right: black solid 3px;
+}
+
+.digit-button:focus {
+  outline: none;
+  background: rgb(178, 82, 197);
+}
